@@ -1,0 +1,165 @@
+/*START*/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: .8em;
+}
+.login-bg {
+	background-image : url(../../../images/oneStartImages/login-bg.jpg);
+	background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	.login-form-second {
+		background-color: #FFF;
+		padding: 20px;
+		width:380px;
+		margin: 0 auto;
+		margin-top:20px;
+		border-top:3px solid #3963ac;
+		box-shadow: 0px 5px 10px #999;
+		
+		.txt-box-lg {
+			float: left;
+			padding: 9px 3px;
+			width: 95%;
+			border-top:none;
+			border-left:none;
+			border-right:none;
+			border-bottom: 1px solid #ccc;
+			padding-left: 20px;
+			font-size: 1.5em;
+		}
+		.lg-hide-man {
+			display:none;
+		}
+		div.txtUserName  {
+			&:before {
+				display: inline-block;
+				font: normal normal normal 14px/ 1 FontAwesome;
+				font-size: inherit;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				float: right;
+				padding: 16px 12px 0 0;
+				color: #D7DBDD;
+				content: "\f007";
+				position:absolute;
+				font-size: 16px;
+			}
+		}
+		div.txtPw {
+			&:before {
+				display: inline-block;
+				font: normal normal normal 14px/ 1 FontAwesome;
+				font-size: inherit;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				padding: 16px 12px 0 0;
+				color: #D7DBDD;
+				content: "\f023";
+				position: absolute;
+				margin-left: 0px;
+				font-size: 18px;
+				
+			}
+		}
+	}
+}
+.oa-btn-defauit{
+	background-color: $btn-default-color;
+	color:$btn-default-txt-color;
+} 
+.oa-btn {
+	padding:10px 10px;
+	border:none;
+}
+.login-btn-wrap {
+	margin-top:20px;
+}
+.login-logo-col {
+float:left;
+width:60%;
+}
+.login-button-col {
+float:right;width:50%;
+}
+.login-button-col {
+	.oa-question-1 {
+		float:right !important;
+		width: 80%;
+		.oa-btn {
+			float:right;
+			text-align:left;
+			width: 100%;
+			margin-top: 0px;
+			font-size:1.5em;
+		}
+	}
+	
+}
+.intro-Text {
+	 width: 650px;margin: 0 auto;margin-top: 8%;padding-left: 211px;
+	 .intro-txt {
+		font-size: 2.5em;
+		color:$text-color;
+	 }
+}
+.onestartimage {
+	padding-left: 4px;
+	margin-top: 10px;
+
+	img {
+		width:37%;
+	}
+}
+.header-wrapper {
+    height: 60px;
+    background: $header-bg-color;
+    width: 100%;
+    border-bottom: 3px solid $menu-active-border-color;
+}
+
+.logo-wrapper {
+    width: 20% !important;
+}
+
+.quick-action {
+	float: right;
+	width: 20%;
+	background-color:blue;
+}
+/*END*/
+.menu-wrapper {
+    width: 60% !important;
+    ul {
+        float: left;
+        width: 100%;
+        li {
+            float: left;
+            a {
+                padding: 0.8em;
+                color: $menu-text-color;
+                @include transition(all ease 0.5s);
+            }
+            a:hover {
+                background: $menu-button-bg-hover;
+            }
+        }
+        li:first-child {
+            a {
+                padding: 0.81em !important;
+                border-top: 3px solid $menu-active-border-color;
+                border-left: 3px solid $menu-active-border-color;
+                border-right: 3px solid $menu-active-border-color;
+                border-bottom: 3px solid $menu-button-bg-hover;
+                background: $menu-button-bg-hover;
+            }
+        }
+    }
+    div div div {
+        width: 100% !important;
+    }
+}

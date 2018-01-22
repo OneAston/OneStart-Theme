@@ -1,0 +1,10 @@
+@import 'reset.scss';
+@import 'oneStart-var.scss'; /*All the onestart theme variables are stored here. if project needs to reskin can change the variables*/
+@import 'template.scss'; /*oneStart template styles are stored here and common style*/
+@import 'style.scss';
+@import 'plugin-customize.scss'; /*Plugin customization styles*/
+
+
+
+@import 'm-styles.scss';
+@import 'd-styles.scss';

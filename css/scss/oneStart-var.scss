@@ -1,0 +1,22 @@
+/*OneStart Variable buttons*/
+$btn-default-color: #3963ac;
+$btn-default-txt-color :#FFF;
+$text-color: #3963ac;
+$header-bg-color: rgba(48, 50, 58, 0.99);
+$menu-text-color: rgba(255, 255, 255, 0.7);
+$menu-button-bg-hover:rgba(12, 12, 12, 0.99);
+$menu-active-border-color: rgba(47, 136, 216, 0.99);
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition($transition...) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
