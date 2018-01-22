@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>search-white</title>
+  <path class="cls-1" d="M15.7,14.3l-3.11-3.11a7,7,0,1,0-1.4,1.4l3.11,3.1a.91.91,0,0,0,.7.3,1,1,0,0,0,1-1A.93.93,0,0,0,15.7,14.3ZM2,7a5,5,0,1,1,5,5A5,5,0,0,1,2,7Z"/>
+</svg>
